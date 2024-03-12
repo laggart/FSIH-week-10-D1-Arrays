@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Arrays titanic</title>
+</head>
+<body>
+    <h1>Pasajeros del Titanic</h1>
+    <div class="buttons">
+        <div class="add">
+            <input type="text" name="" id="nuevoPasajero" placeholder="Nombre del pasajero">
+            <input type="button" id="añadirPbutton" value="Añadir Pasajeros" onclick="addPassanger()">
+            <input type="button" value="Eliminar último pasajero" onclick="deletePassanger()">
+        </div>
+        <div class="lista">
+            <input type="button" value="Lista de pasajeros" onclick="passangerList()">
+        </div>
+        <div>
+            <input type="text" name="" id="numeroPasajero" placeholder="Sustituir pasajero No.">
+            <input type="text" name="" id="altPasajero" placeholder="Nombre nuevo pasajero">
+            <input type="button" value="Sustituir Pasajero" onclick="replaceOnPlace()">
+        </div>
+    </div>
+    <div class="personas"> </div>
+
+    <div class="barco">
+        <div class="asientosBarco">
+            <div class="fila">
+                <div class="asiento">
+                    <input type="checkbox" value="none" name="check" id="chair1">
+                    <label for="chair1">1</label>
+                </div>
+                <div class="asiento">
+                    <input type="checkbox" value="none" name="check" id="chair2">
+                    <label for="chair2">2</label>
+                </div>
+                <div class="asiento">
+                    <input type="checkbox" value="none" name="check" id="chair3">
+                    <label for="chair3">3</label>
+                </div>
+                <div class="asiento">
+                    <input type="checkbox" value="none" name="check" id="chair4">
+                    <label for="chair4">4</label>
+                </div>
+                <div class="asiento">
+                    <input type="checkbox" value="none" name="check" id="chair5">
+                    <label for="chair5">5</label>
+                </div>
+                <div class="asiento">
+                    <input type="checkbox" value="none" name="check" id="chair6">
+                    <label for="chair6">6</label>
+                </div>
+
+            </div>
+            <div class="fila">
+                <div class="asiento">
+                    <input type="checkbox" value="none" name="check" id="chair7">
+                    <label for="chair7">7</label>
+                </div>
+                <div class="asiento">
+                    <input type="checkbox" value="none" name="check" id="chair8">
+                    <label for="chair8">8</label>
+                </div>
+                <div class="asiento">
+                    <input type="checkbox" value="none" name="check" id="chair9">
+                    <label for="chair9">9</label>
+                </div>
+                <div class="asiento">
+                    <input type="checkbox" value="none" name="check" id="chair10">
+                    <label for="chair10">10</label>
+                </div>
+                <div class="asiento">
+                    <input type="checkbox" value="none" name="check" id="chair11">
+                    <label for="chair11">11</label>
+                </div>
+                <div class="asiento">
+                    <input type="checkbox" value="none" name="check" id="chair12">
+                    <label for="chair12">12</label>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

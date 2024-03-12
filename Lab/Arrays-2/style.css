@@ -1,0 +1,42 @@
+
+.buttons
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.asientosBarco{
+    display: flex;
+    justify-content: center;
+}
+
+.fila{
+    padding: 20px;
+}
+
+.asiento{
+    margin: 25px auto;
+    width: 20px;
+    height: 20px;
+    background-color: cadetblue;
+    box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.asiento label {
+    color: blue;
+}
+
+.asiento label:hover::after {
+    filter: alpha(opacity=30);
+    opacity: 0.3;
+}
+
+.asiento input[type=checkbox]:checked +label::after{
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
